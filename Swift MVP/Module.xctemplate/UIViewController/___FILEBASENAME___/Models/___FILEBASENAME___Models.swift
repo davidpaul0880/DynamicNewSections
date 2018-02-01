@@ -10,7 +10,7 @@
 enum ___VARIABLE_sceneName___ {
     struct Request: JSONDictionaryDeserializable {
         func toJSON() -> [String: Any] {
-            return []
+            return [:]
         }
     }
     struct Response: JSONDictionarySerializable {

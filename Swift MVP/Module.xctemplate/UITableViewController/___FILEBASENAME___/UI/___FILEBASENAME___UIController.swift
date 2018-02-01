@@ -9,25 +9,34 @@
 //
 
 import UIKit
-class ___VARIABLE_sceneName___UIController {
-    
-    //weak var eventHandler: ___VARIABLE_sceneName____HandleCellUIEvents!
-    fileprivate let tableViewDataSource: TableViewDataSource<___VARIABLE_cellName___CellPresentable, ___VARIABLE_cellName___TableViewCell>
-    init(_ tableView: UITableView, eventHandler: ___VARIABLE_sceneName____HandleCellUIEvents) {
-        //self.eventHandler = eventHandler
-        self.tableViewDataSource = TableViewDataSource<___VARIABLE_cellName___CellPresentable, ___VARIABLE_cellName___TableViewCell>(tableView: tableView)
-        tableView.delegate = tableViewDataSource
-        tableView.dataSource = tableViewDataSource
-        tableViewDataSource.actionHandler = { [weak self] (model, indexPath) in
-            guard let strongSelf = self else { return }
-            //strongSelf.eventHandler.handleRoomSelection(model: model, cellIndex: indexPath.item)
-        }
+class ___VARIABLE_sceneName___UIController: NSObject {
+    fileprivate unowned var tableView: UITableView
+    weak var eventHandler: ___VARIABLE_sceneName____HandleCellUIEvents!
+    fileprivate var dataSource: [___VARIABLE_sceneName___.InputField] = [] {
+        didSet { tableView.reloadData() }
     }
-    func loadBitReelRooms(_ rooms: [___VARIABLE_cellName___ViewModel]) {
-        tableViewDataSource.cellSizeDelegate = self
-        tableViewDataSource.dataSource = rooms
+    required init(_ tableView: UITableView, eventHandler: ___VARIABLE_sceneName____HandleCellUIEvents) {
+        //self.eventHandler = eventHandler
+        self.tableView = tableView
+        self.eventHandler = eventHandler
+    }
+    // MARK: - UIController
+    func initialize() {
+        tableView.delegate = self
+        tableView.dataSource = self
     }
     deinit {
         printDebug("\(String(describing: self)) is being deInitialized.")
+    }
+}
+// MARK: - UITableViewDataSource,UITableViewDelegate
+extension ___VARIABLE_sceneName___UIController: UITableViewDataSource, UITableViewDelegate {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return dataSource.count
+    }
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell: ___VARIABLE_cellName___TableViewCell = tableView.dequeueReusableCell(indexPath: indexPath)
+        cell.cellController = dataSource[indexPath.row]
+        return cell
     }
 }

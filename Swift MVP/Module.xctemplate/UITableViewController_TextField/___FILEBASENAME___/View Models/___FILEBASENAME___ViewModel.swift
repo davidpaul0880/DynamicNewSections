@@ -18,4 +18,10 @@ class Default___VARIABLE_sceneName___ViewModel: ___VARIABLE_sceneName___ViewMode
     init() {
         
     }
+    func getValueFor(_ inputType: ___VARIABLE_sceneName___.InputType) -> String? {
+        return nil
+    }
+    func setValue(_ value: String?, inputType: ___VARIABLE_sceneName___.InputType) {
+        
+    }
 }

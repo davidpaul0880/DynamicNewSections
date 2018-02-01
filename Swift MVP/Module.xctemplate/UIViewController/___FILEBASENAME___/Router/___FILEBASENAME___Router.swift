@@ -17,19 +17,19 @@ final class ___VARIABLE_sceneName___Router: BaseNavigation, Navigator {
     static func addContracts(_ viewController: ___VARIABLE_sceneName___ViewController) {
         
         let viewModel = Default___VARIABLE_sceneName___ViewModel()
-        let controller = ___VARIABLE_sceneName___Controller(viewModel)
+        let presenter = ___VARIABLE_sceneName___Presenter(viewModel)
         let router = ___VARIABLE_sceneName___Router(with: viewController)
-        controller.router = router
-        controller.displayUI = viewController
+        presenter.router = router
+        presenter.displayUI = viewController
         viewController.router = router//assigned to instance in BaseViewController
-        viewController.eventHandler = controller
+        viewController.eventHandler = presenter
         viewController.viewModel = viewModel
     }
-    func perform(_ segue: SegueType, sender: Any?) {
-        guard let actionSegue = ___VARIABLE_sceneName___Segue(rawValue: segue.identifier()) else { return }
+    func perform(_ segue: ___VARIABLE_sceneName___Segue, sender: Any?) {
+        guard let actionSegue = ___VARIABLE_sceneName___Segue(rawValue: segue.rawValue) else { return }
         switch actionSegue {
         case .showDetail:
-            viewController.performSegue(withIdentifier: segue.identifier(), sender: sender)
+            viewController.performSegue(withIdentifier: segue.rawValue, sender: sender)
         }
     }
     func prepare(for segue: UIStoryboardSegue, sender: Any?) {

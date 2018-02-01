@@ -10,10 +10,14 @@
 
 import UIKit
 
-protocol ___VARIABLE_sceneName____HandleUIEvents: class {
+protocol ___VARIABLE_sceneName____HandleUIEvents: ___VARIABLE_sceneName____HandleCellUIEvents {
     func doSomething()
 }
 
 protocol ___VARIABLE_sceneName____DisplayUI: class {
     func toggle(_ isLoading: Bool)
+}
+
+protocol ___VARIABLE_sceneName____HandleCellUIEvents: class {
+    
 }

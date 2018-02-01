@@ -19,5 +19,6 @@ protocol ___VARIABLE_sceneName____DisplayUI: class {
 }
 
 protocol ___VARIABLE_sceneName____HandleCellUIEvents: class {
-
+    func getValueFor(_ inputType: ___VARIABLE_sceneName___.InputType) -> String?
+    func setValue(_ value: String?, inputType: ___VARIABLE_sceneName___.InputType)
 }

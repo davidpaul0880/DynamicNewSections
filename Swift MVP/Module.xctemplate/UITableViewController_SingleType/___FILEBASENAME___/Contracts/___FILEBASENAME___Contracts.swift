@@ -19,5 +19,5 @@ protocol ___VARIABLE_sceneName____DisplayUI: class {
 }
 
 protocol ___VARIABLE_sceneName____HandleCellUIEvents: class {
-
+    func tappedOption(_ option: ___VARIABLE_cellName___CellPresentable)
 }

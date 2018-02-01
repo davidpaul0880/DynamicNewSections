@@ -9,13 +9,11 @@
 //
 
 import UIKit
-
-protocol ___VARIABLE_sceneName___ViewModel: class {
-    func doSomeWork()
+protocol ___VARIABLE_cellName___CellPresentable {
+    var roomName: String? { get }
+}
+class ___VARIABLE_cellName___ViewModel: ___VARIABLE_cellName___CellPresentable {
+    var roomName: String?
 }
 
-class Default___VARIABLE_sceneName___ViewModel: ___VARIABLE_sceneName___ViewModel {
-    init() {
-        
-    }
-}
+

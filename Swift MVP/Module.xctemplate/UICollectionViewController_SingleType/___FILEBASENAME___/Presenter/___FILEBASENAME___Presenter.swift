@@ -9,7 +9,7 @@
 //
 
 
-class ___VARIABLE_sceneName___Controller {
+class ___VARIABLE_sceneName___Presenter {
     var router: ___VARIABLE_sceneName___Router<___VARIABLE_sceneName___Segue>!
     var viewModel: Default___VARIABLE_sceneName___ViewModel
     weak var displayUI: ___VARIABLE_sceneName____DisplayUI!
@@ -17,7 +17,7 @@ class ___VARIABLE_sceneName___Controller {
         self.viewModel = viewModel
     }
 }
-extension ___VARIABLE_sceneName___Controller: ___VARIABLE_sceneName____HandleUIEvents {
+extension ___VARIABLE_sceneName___Presenter: ___VARIABLE_sceneName____HandleUIEvents {
     func doSomething() {
         
     }

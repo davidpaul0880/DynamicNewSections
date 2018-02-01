@@ -48,13 +48,13 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_sceneName:identifier___Controller</string>
+			<string>___VARIABLE_sceneName:identifier___Presenter</string>
 			<key>Description</key>
-			<string>The Controller name</string>
+			<string>The Presenter name</string>
 			<key>Identifier</key>
-			<string>controllerName </string>
+			<string>presenterName </string>
 			<key>Name</key>
-			<string> Controller Name:</string>
+			<string>Presenter Name:</string>
 			<key>Required</key>
 			<true/>
 			<key>Type</key>
@@ -152,6 +152,7 @@
 				<string>UIViewController</string>
 				<string>UITableViewController</string>
 				<string>UICollectionViewController</string>
+				<string>UITableViewController_TextField</string>
 			</array>
 		</dict>
 		<dict>
@@ -164,9 +165,18 @@
 			<key>NotPersisted</key>
 			<true/>
 			<key>Required</key>
-			<true/>
+			<false/>
 			<key>Type</key>
 			<string>text</string>
+			<key>RequiredOptions</key>
+        		<dict>
+            		<key>viewControllerSubclass</key>
+			<array>
+			<string>UITableViewController</string>
+			<string>UICollectionViewController</string>
+			<string>UITableViewController_TextField</string>
+			</array>
+        		</dict>
 		</dict>
 	</array>
 	<key>Platforms</key>

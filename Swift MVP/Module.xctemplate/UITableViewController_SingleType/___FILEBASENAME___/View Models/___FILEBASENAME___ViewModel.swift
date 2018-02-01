@@ -18,4 +18,6 @@ class Default___VARIABLE_sceneName___ViewModel: ___VARIABLE_sceneName___ViewMode
     init() {
         
     }
+    func doSomeWork() {
+    }
 }

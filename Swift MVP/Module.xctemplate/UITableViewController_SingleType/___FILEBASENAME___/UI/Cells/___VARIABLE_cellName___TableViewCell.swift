@@ -9,11 +9,10 @@
 //
 
 import UIKit
-class ___VARIABLE_cellName___TableViewCell: UITableViewCell {
+class ___VARIABLE_cellName___TableViewCell: UITableViewCell, CellConfigurable {
     //@IBOutlet weak var roomLabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
-        //Set font and color here
         //roomLabel.font = UIFont.regular(10)
     }
     var cellController: ___VARIABLE_cellName___CellPresentable? {
