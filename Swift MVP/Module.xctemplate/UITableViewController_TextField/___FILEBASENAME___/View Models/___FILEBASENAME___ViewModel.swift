@@ -11,7 +11,6 @@
 import UIKit
 
 protocol ___VARIABLE_sceneName___ViewModel: class {
-    func doSomeWork()
 }
 
 class Default___VARIABLE_sceneName___ViewModel: ___VARIABLE_sceneName___ViewModel {
