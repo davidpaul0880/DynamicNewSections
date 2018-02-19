@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXFileReference section */
+		84DFFA68203564C3000A4962 /* TemplateIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateIcon.png; sourceTree = "<group>"; };
+		84DFFA69203564C3000A4962 /* TemplateIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TemplateIcon@2x.png"; sourceTree = "<group>"; };
+		84DFFA6A203564C3000A4962 /* TemplateInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TemplateInfo.plist; sourceTree = "<group>"; };
+		84DFFA6E203564C3000A4962 /* ___FILEBASENAME___Contracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Contracts.swift"; sourceTree = "<group>"; };
+		84DFFA70203564C3000A4962 /* ___FILEBASENAME___Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Models.swift"; sourceTree = "<group>"; };
+		84DFFA72203564C3000A4962 /* ___FILEBASENAME___Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Presenter.swift"; sourceTree = "<group>"; };
+		84DFFA74203564C3000A4962 /* ___FILEBASENAME___Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Router.swift"; sourceTree = "<group>"; };
+		84DFFA76203564C3000A4962 /* ___FILEBASENAME___API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___API.swift"; sourceTree = "<group>"; };
+		84DFFA78203564C3000A4962 /* ___FILEBASENAME___SBControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___SBControl.swift"; sourceTree = "<group>"; };
+		84DFFA79203564C3000A4962 /* ___FILEBASENAME___UIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___UIController.swift"; sourceTree = "<group>"; };
+		84DFFA7A203564C3000A4962 /* ___FILEBASENAME___ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___ViewController.swift"; sourceTree = "<group>"; };
+		84DFFA7C203564C3000A4962 /* ___VARIABLE_cellName___CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___VARIABLE_cellName___CollectionViewCell.swift"; sourceTree = "<group>"; };
+		84DFFA7E203564C3000A4962 /* ___FILEBASENAME___ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___ViewModel.swift"; sourceTree = "<group>"; };
+		84DFFA7F203564C3000A4962 /* ___VARIABLE_cellName___ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___VARIABLE_cellName___ViewModel.swift"; sourceTree = "<group>"; };
+		84DFFA83203564C3000A4962 /* ___FILEBASENAME___Contracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Contracts.swift"; sourceTree = "<group>"; };
+		84DFFA85203564C3000A4962 /* ___FILEBASENAME___Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Models.swift"; sourceTree = "<group>"; };
+		84DFFA87203564C3000A4962 /* ___FILEBASENAME___Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Presenter.swift"; sourceTree = "<group>"; };
+		84DFFA89203564C3000A4962 /* ___FILEBASENAME___Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Router.swift"; sourceTree = "<group>"; };
+		84DFFA8B203564C3000A4962 /* ___FILEBASENAME___API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___API.swift"; sourceTree = "<group>"; };
+		84DFFA8D203564C3000A4962 /* ___FILEBASENAME___SBControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___SBControl.swift"; sourceTree = "<group>"; };
+		84DFFA8E203564C3000A4962 /* ___FILEBASENAME___UIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___UIController.swift"; sourceTree = "<group>"; };
+		84DFFA8F203564C3000A4962 /* ___FILEBASENAME___ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___ViewController.swift"; sourceTree = "<group>"; };
+		84DFFA91203564C3000A4962 /* ___VARIABLE_cellName___TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___VARIABLE_cellName___TableViewCell.swift"; sourceTree = "<group>"; };
+		84DFFA93203564C3000A4962 /* ___FILEBASENAME___ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___ViewModel.swift"; sourceTree = "<group>"; };
+		84DFFA94203564C3000A4962 /* ___VARIABLE_cellName___ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___VARIABLE_cellName___ViewModel.swift"; sourceTree = "<group>"; };
+		84DFFA98203564C3000A4962 /* ___FILEBASENAME___Contracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Contracts.swift"; sourceTree = "<group>"; };
+		84DFFA9A203564C3000A4962 /* ___FILEBASENAME___Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Models.swift"; sourceTree = "<group>"; };
+		84DFFA9C203564C3000A4962 /* ___FILEBASENAME___Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Presenter.swift"; sourceTree = "<group>"; };
+		84DFFA9E203564C3000A4962 /* ___FILEBASENAME___Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Router.swift"; sourceTree = "<group>"; };
+		84DFFAA0203564C3000A4962 /* ___FILEBASENAME___API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___API.swift"; sourceTree = "<group>"; };
+		84DFFAA2203564C3000A4962 /* ___FILEBASENAME___SBControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___SBControl.swift"; sourceTree = "<group>"; };
+		84DFFAA3203564C3000A4962 /* ___FILEBASENAME___UIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___UIController.swift"; sourceTree = "<group>"; };
+		84DFFAA4203564C3000A4962 /* ___FILEBASENAME___ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___ViewController.swift"; sourceTree = "<group>"; };
+		84DFFAA6203564C3000A4962 /* ___VARIABLE_cellName___TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___VARIABLE_cellName___TableViewCell.swift"; sourceTree = "<group>"; };
+		84DFFAA8203564C3000A4962 /* ___FILEBASENAME___ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___ViewModel.swift"; sourceTree = "<group>"; };
+		84DFFAA9203564C3000A4962 /* ___VARIABLE_cellName___ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___VARIABLE_cellName___ViewModel.swift"; sourceTree = "<group>"; };
+		84DFFAAD203564C3000A4962 /* ___FILEBASENAME___Contracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Contracts.swift"; sourceTree = "<group>"; };
+		84DFFAAF203564C3000A4962 /* ___FILEBASENAME___Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Models.swift"; sourceTree = "<group>"; };
+		84DFFAB1203564C3000A4962 /* ___FILEBASENAME___Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Presenter.swift"; sourceTree = "<group>"; };
+		84DFFAB3203564C3000A4962 /* ___FILEBASENAME___Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Router.swift"; sourceTree = "<group>"; };
+		84DFFAB5203564C3000A4962 /* ___FILEBASENAME___API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___API.swift"; sourceTree = "<group>"; };
+		84DFFAB7203564C3000A4962 /* ___FILEBASENAME___SBControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___SBControl.swift"; sourceTree = "<group>"; };
+		84DFFAB8203564C3000A4962 /* ___FILEBASENAME___UIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___UIController.swift"; sourceTree = "<group>"; };
+		84DFFAB9203564C3000A4962 /* ___FILEBASENAME___ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___ViewController.swift"; sourceTree = "<group>"; };
+		84DFFABB203564C3000A4962 /* ___VARIABLE_cellName___TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___VARIABLE_cellName___TableViewCell.swift"; sourceTree = "<group>"; };
+		84DFFABD203564C3000A4962 /* ___FILEBASENAME___ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___ViewModel.swift"; sourceTree = "<group>"; };
+		84DFFABE203564C3000A4962 /* ___VARIABLE_cellName___ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___VARIABLE_cellName___ViewModel.swift"; sourceTree = "<group>"; };
+		84DFFAC2203564C3000A4962 /* ___FILEBASENAME___Contracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Contracts.swift"; sourceTree = "<group>"; };
+		84DFFAC4203564C3000A4962 /* ___FILEBASENAME___Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Models.swift"; sourceTree = "<group>"; };
+		84DFFAC6203564C3000A4962 /* ___FILEBASENAME___Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Presenter.swift"; sourceTree = "<group>"; };
+		84DFFAC8203564C3000A4962 /* ___FILEBASENAME___Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Router.swift"; sourceTree = "<group>"; };
+		84DFFACA203564C3000A4962 /* ___FILEBASENAME___API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___API.swift"; sourceTree = "<group>"; };
+		84DFFACC203564C3000A4962 /* ___FILEBASENAME___SBControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___SBControl.swift"; sourceTree = "<group>"; };
+		84DFFACD203564C3000A4962 /* ___FILEBASENAME___ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___ViewController.swift"; sourceTree = "<group>"; };
+		84DFFACF203564C3000A4962 /* ___FILEBASENAME___ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___ViewModel.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		84DFFA5F2035649C000A4962 = {
+			isa = PBXGroup;
+			children = (
+				84DFFA66203564C3000A4962 /* Swift MVP */,
+			);
+			sourceTree = "<group>";
+		};
+		84DFFA66203564C3000A4962 /* Swift MVP */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFA67203564C3000A4962 /* Module.xctemplate */,
+			);
+			name = "Swift MVP";
+			path = "../Swift MVP";
+			sourceTree = "<group>";
+		};
+		84DFFA67203564C3000A4962 /* Module.xctemplate */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFA68203564C3000A4962 /* TemplateIcon.png */,
+				84DFFA69203564C3000A4962 /* TemplateIcon@2x.png */,
+				84DFFA6A203564C3000A4962 /* TemplateInfo.plist */,
+				84DFFA6B203564C3000A4962 /* UICollectionViewController_SingleType */,
+				84DFFA80203564C3000A4962 /* UITableViewController */,
+				84DFFA95203564C3000A4962 /* UITableViewController_SingleType */,
+				84DFFAAA203564C3000A4962 /* UITableViewController_TextField */,
+				84DFFABF203564C3000A4962 /* UIViewController */,
+			);
+			path = Module.xctemplate;
+			sourceTree = "<group>";
+		};
+		84DFFA6B203564C3000A4962 /* UICollectionViewController_SingleType */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFA6C203564C3000A4962 /* ___FILEBASENAME___ */,
+			);
+			path = UICollectionViewController_SingleType;
+			sourceTree = "<group>";
+		};
+		84DFFA6C203564C3000A4962 /* ___FILEBASENAME___ */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFA6D203564C3000A4962 /* Contracts */,
+				84DFFA6F203564C3000A4962 /* Models */,
+				84DFFA71203564C3000A4962 /* Presenter */,
+				84DFFA73203564C3000A4962 /* Router */,
+				84DFFA75203564C3000A4962 /* Services */,
+				84DFFA77203564C3000A4962 /* UI */,
+				84DFFA7D203564C3000A4962 /* View Models */,
+			);
+			path = "___FILEBASENAME___";
+			sourceTree = "<group>";
+		};
+		84DFFA6D203564C3000A4962 /* Contracts */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFA6E203564C3000A4962 /* ___FILEBASENAME___Contracts.swift */,
+			);
+			path = Contracts;
+			sourceTree = "<group>";
+		};
+		84DFFA6F203564C3000A4962 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFA70203564C3000A4962 /* ___FILEBASENAME___Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		84DFFA71203564C3000A4962 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFA72203564C3000A4962 /* ___FILEBASENAME___Presenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		84DFFA73203564C3000A4962 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFA74203564C3000A4962 /* ___FILEBASENAME___Router.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		84DFFA75203564C3000A4962 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFA76203564C3000A4962 /* ___FILEBASENAME___API.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		84DFFA77203564C3000A4962 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFA78203564C3000A4962 /* ___FILEBASENAME___SBControl.swift */,
+				84DFFA79203564C3000A4962 /* ___FILEBASENAME___UIController.swift */,
+				84DFFA7A203564C3000A4962 /* ___FILEBASENAME___ViewController.swift */,
+				84DFFA7B203564C3000A4962 /* Cells */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		84DFFA7B203564C3000A4962 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFA7C203564C3000A4962 /* ___VARIABLE_cellName___CollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		84DFFA7D203564C3000A4962 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFA7E203564C3000A4962 /* ___FILEBASENAME___ViewModel.swift */,
+				84DFFA7F203564C3000A4962 /* ___VARIABLE_cellName___ViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		84DFFA80203564C3000A4962 /* UITableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFA81203564C3000A4962 /* ___FILEBASENAME___ */,
+			);
+			path = UITableViewController;
+			sourceTree = "<group>";
+		};
+		84DFFA81203564C3000A4962 /* ___FILEBASENAME___ */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFA82203564C3000A4962 /* Contracts */,
+				84DFFA84203564C3000A4962 /* Models */,
+				84DFFA86203564C3000A4962 /* Presenter */,
+				84DFFA88203564C3000A4962 /* Router */,
+				84DFFA8A203564C3000A4962 /* Services */,
+				84DFFA8C203564C3000A4962 /* UI */,
+				84DFFA92203564C3000A4962 /* View Models */,
+			);
+			path = "___FILEBASENAME___";
+			sourceTree = "<group>";
+		};
+		84DFFA82203564C3000A4962 /* Contracts */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFA83203564C3000A4962 /* ___FILEBASENAME___Contracts.swift */,
+			);
+			path = Contracts;
+			sourceTree = "<group>";
+		};
+		84DFFA84203564C3000A4962 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFA85203564C3000A4962 /* ___FILEBASENAME___Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		84DFFA86203564C3000A4962 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFA87203564C3000A4962 /* ___FILEBASENAME___Presenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		84DFFA88203564C3000A4962 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFA89203564C3000A4962 /* ___FILEBASENAME___Router.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		84DFFA8A203564C3000A4962 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFA8B203564C3000A4962 /* ___FILEBASENAME___API.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		84DFFA8C203564C3000A4962 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFA8D203564C3000A4962 /* ___FILEBASENAME___SBControl.swift */,
+				84DFFA8E203564C3000A4962 /* ___FILEBASENAME___UIController.swift */,
+				84DFFA8F203564C3000A4962 /* ___FILEBASENAME___ViewController.swift */,
+				84DFFA90203564C3000A4962 /* Cells */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		84DFFA90203564C3000A4962 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFA91203564C3000A4962 /* ___VARIABLE_cellName___TableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		84DFFA92203564C3000A4962 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFA93203564C3000A4962 /* ___FILEBASENAME___ViewModel.swift */,
+				84DFFA94203564C3000A4962 /* ___VARIABLE_cellName___ViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		84DFFA95203564C3000A4962 /* UITableViewController_SingleType */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFA96203564C3000A4962 /* ___FILEBASENAME___ */,
+			);
+			path = UITableViewController_SingleType;
+			sourceTree = "<group>";
+		};
+		84DFFA96203564C3000A4962 /* ___FILEBASENAME___ */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFA97203564C3000A4962 /* Contracts */,
+				84DFFA99203564C3000A4962 /* Models */,
+				84DFFA9B203564C3000A4962 /* Presenter */,
+				84DFFA9D203564C3000A4962 /* Router */,
+				84DFFA9F203564C3000A4962 /* Services */,
+				84DFFAA1203564C3000A4962 /* UI */,
+				84DFFAA7203564C3000A4962 /* View Models */,
+			);
+			path = "___FILEBASENAME___";
+			sourceTree = "<group>";
+		};
+		84DFFA97203564C3000A4962 /* Contracts */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFA98203564C3000A4962 /* ___FILEBASENAME___Contracts.swift */,
+			);
+			path = Contracts;
+			sourceTree = "<group>";
+		};
+		84DFFA99203564C3000A4962 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFA9A203564C3000A4962 /* ___FILEBASENAME___Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		84DFFA9B203564C3000A4962 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFA9C203564C3000A4962 /* ___FILEBASENAME___Presenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		84DFFA9D203564C3000A4962 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFA9E203564C3000A4962 /* ___FILEBASENAME___Router.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		84DFFA9F203564C3000A4962 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFAA0203564C3000A4962 /* ___FILEBASENAME___API.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		84DFFAA1203564C3000A4962 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFAA2203564C3000A4962 /* ___FILEBASENAME___SBControl.swift */,
+				84DFFAA3203564C3000A4962 /* ___FILEBASENAME___UIController.swift */,
+				84DFFAA4203564C3000A4962 /* ___FILEBASENAME___ViewController.swift */,
+				84DFFAA5203564C3000A4962 /* Cells */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		84DFFAA5203564C3000A4962 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFAA6203564C3000A4962 /* ___VARIABLE_cellName___TableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		84DFFAA7203564C3000A4962 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFAA8203564C3000A4962 /* ___FILEBASENAME___ViewModel.swift */,
+				84DFFAA9203564C3000A4962 /* ___VARIABLE_cellName___ViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		84DFFAAA203564C3000A4962 /* UITableViewController_TextField */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFAAB203564C3000A4962 /* ___FILEBASENAME___ */,
+			);
+			path = UITableViewController_TextField;
+			sourceTree = "<group>";
+		};
+		84DFFAAB203564C3000A4962 /* ___FILEBASENAME___ */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFAAC203564C3000A4962 /* Contracts */,
+				84DFFAAE203564C3000A4962 /* Models */,
+				84DFFAB0203564C3000A4962 /* Presenter */,
+				84DFFAB2203564C3000A4962 /* Router */,
+				84DFFAB4203564C3000A4962 /* Services */,
+				84DFFAB6203564C3000A4962 /* UI */,
+				84DFFABC203564C3000A4962 /* View Models */,
+			);
+			path = "___FILEBASENAME___";
+			sourceTree = "<group>";
+		};
+		84DFFAAC203564C3000A4962 /* Contracts */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFAAD203564C3000A4962 /* ___FILEBASENAME___Contracts.swift */,
+			);
+			path = Contracts;
+			sourceTree = "<group>";
+		};
+		84DFFAAE203564C3000A4962 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFAAF203564C3000A4962 /* ___FILEBASENAME___Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		84DFFAB0203564C3000A4962 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFAB1203564C3000A4962 /* ___FILEBASENAME___Presenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		84DFFAB2203564C3000A4962 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFAB3203564C3000A4962 /* ___FILEBASENAME___Router.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		84DFFAB4203564C3000A4962 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFAB5203564C3000A4962 /* ___FILEBASENAME___API.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		84DFFAB6203564C3000A4962 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFAB7203564C3000A4962 /* ___FILEBASENAME___SBControl.swift */,
+				84DFFAB8203564C3000A4962 /* ___FILEBASENAME___UIController.swift */,
+				84DFFAB9203564C3000A4962 /* ___FILEBASENAME___ViewController.swift */,
+				84DFFABA203564C3000A4962 /* Cells */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		84DFFABA203564C3000A4962 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFABB203564C3000A4962 /* ___VARIABLE_cellName___TableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		84DFFABC203564C3000A4962 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFABD203564C3000A4962 /* ___FILEBASENAME___ViewModel.swift */,
+				84DFFABE203564C3000A4962 /* ___VARIABLE_cellName___ViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		84DFFABF203564C3000A4962 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFAC0203564C3000A4962 /* ___FILEBASENAME___ */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		84DFFAC0203564C3000A4962 /* ___FILEBASENAME___ */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFAC1203564C3000A4962 /* Contracts */,
+				84DFFAC3203564C3000A4962 /* Models */,
+				84DFFAC5203564C3000A4962 /* Presenter */,
+				84DFFAC7203564C3000A4962 /* Router */,
+				84DFFAC9203564C3000A4962 /* Services */,
+				84DFFACB203564C3000A4962 /* UI */,
+				84DFFACE203564C3000A4962 /* View Models */,
+			);
+			path = "___FILEBASENAME___";
+			sourceTree = "<group>";
+		};
+		84DFFAC1203564C3000A4962 /* Contracts */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFAC2203564C3000A4962 /* ___FILEBASENAME___Contracts.swift */,
+			);
+			path = Contracts;
+			sourceTree = "<group>";
+		};
+		84DFFAC3203564C3000A4962 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFAC4203564C3000A4962 /* ___FILEBASENAME___Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		84DFFAC5203564C3000A4962 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFAC6203564C3000A4962 /* ___FILEBASENAME___Presenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		84DFFAC7203564C3000A4962 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFAC8203564C3000A4962 /* ___FILEBASENAME___Router.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		84DFFAC9203564C3000A4962 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFACA203564C3000A4962 /* ___FILEBASENAME___API.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		84DFFACB203564C3000A4962 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFACC203564C3000A4962 /* ___FILEBASENAME___SBControl.swift */,
+				84DFFACD203564C3000A4962 /* ___FILEBASENAME___ViewController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		84DFFACE203564C3000A4962 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				84DFFACF203564C3000A4962 /* ___FILEBASENAME___ViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		84DFFA602035649C000A4962 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+			};
+			buildConfigurationList = 84DFFA632035649C000A4962 /* Build configuration list for PBXProject "Templates" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84DFFA5F2035649C000A4962;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		84DFFA642035649C000A4962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		84DFFA652035649C000A4962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84DFFA632035649C000A4962 /* Build configuration list for PBXProject "Templates" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DFFA642035649C000A4962 /* Debug */,
+				84DFFA652035649C000A4962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84DFFA602035649C000A4962 /* Project object */;
+}
