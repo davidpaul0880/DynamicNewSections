@@ -11,7 +11,7 @@
 import UIKit
 class ___VARIABLE_sceneName___UIController: NSObject {
     fileprivate unowned var tableView: UITableView
-    fileprivate var kbManager: Swift MVP+VMKeyboardManager!
+    fileprivate var kbManager: KeyboardManager!
     weak var eventHandler: ___VARIABLE_sceneName____HandleCellUIEvents!
     fileprivate var dataSource: [___VARIABLE_sceneName___.InputField] = [] {
         didSet { tableView.reloadData() }
@@ -26,7 +26,7 @@ class ___VARIABLE_sceneName___UIController: NSObject {
         tableView.delegate = self
         tableView.dataSource = self
         //keyboard setup
-        kbManager = Swift MVP+VMKeyboard(containerScrollView: tableView, textFieldDelegate: self)
+        kbManager = Keyboard(containerScrollView: tableView, textFieldDelegate: self)
     }
     func viewWillAppear() {
         kbManager.registerKeyboardEvents()
