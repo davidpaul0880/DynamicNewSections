@@ -1,4 +1,10 @@
 
+MVVM+VM Template
+
+
+
+Installation
+
 To install the Clean Swift Xcode templates, run:
 
 > make install_templates
