@@ -21,7 +21,12 @@ class ___VARIABLE_sceneName___ViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-    
+    override class func storyboard() -> UIStoryboard {
+        return UIStoryboard.main
+    }
+    deinit {
+        printDebug("\(String(describing: self)) is being deInitialized.\n")
+    }
 }
 
 extension ___VARIABLE_sceneName___ViewController: ___VARIABLE_sceneName____DisplayUI {

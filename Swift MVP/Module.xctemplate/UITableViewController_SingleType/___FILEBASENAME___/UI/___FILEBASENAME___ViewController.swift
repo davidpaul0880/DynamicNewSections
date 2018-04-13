@@ -24,6 +24,9 @@ class ___VARIABLE_sceneName___ViewController: BaseViewController {
         sbControl.addCustomizations()
         uiController = ___VARIABLE_sceneName___UIController(sbControl.tableView, eventHandler: eventHandler)
     }
+    override class func storyboard() -> UIStoryboard {
+        return UIStoryboard.main
+    }
     deinit {
         printDebug("\(String(describing: self)) is being deInitialized.\n")
     }
