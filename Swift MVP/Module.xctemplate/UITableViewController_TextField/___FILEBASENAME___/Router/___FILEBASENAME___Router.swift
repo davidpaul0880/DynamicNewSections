@@ -19,8 +19,10 @@ final class ___VARIABLE_sceneName___Router: BaseNavigation, Navigator {
         let viewModel = Default___VARIABLE_sceneName___ViewModel()
         let presenter = ___VARIABLE_sceneName___Presenter(viewModel)
         let router = ___VARIABLE_sceneName___Router(with: viewController)
+        let serviceAPI = ___VARIABLE_sceneName___API(NetworkConfig.networkingAPI())
         presenter.router = router
         presenter.displayUI = viewController
+        presenter.service = serviceAPI
         viewController.router = router//assigned to instance in BaseViewController
         viewController.eventHandler = presenter
         viewController.viewModel = viewModel
