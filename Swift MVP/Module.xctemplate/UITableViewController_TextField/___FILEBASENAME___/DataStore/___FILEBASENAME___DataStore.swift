@@ -10,13 +10,24 @@
 
 import CoreData
 
-protocol DataMappable {
-    func mapPropertiesTo<T: NSManagedObject>(_ managedObj: T.Type)
-    static func initByMapProertiesFrom<T: NSManagedObject>(_ managedObj: T.Type) -> Self
-}
-
 class ___VARIABLE_sceneName___DataStore {
     
+    func saveMyProfile(user: DataMappable) {
+        CoreDataHelper.shared.performMainThreadSyncTask { (context) in
+            var profile: RFUser
+            if let fetchRes = RFUser.fetchObjects(context: context), let profileObj = fetchRes.first {
+                profile = profileObj
+            } else {
+                profile = RFUser(context: context)
+            }
+            user.mapPropertiesTo(profile)
+            do {
+                try context.save()
+            } catch (let err){
+                print("error = \(err)")
+            }
+        }
+    }
     deinit {
         printDebug("\(String(describing: self)) is being deInitialized.\n")
     }

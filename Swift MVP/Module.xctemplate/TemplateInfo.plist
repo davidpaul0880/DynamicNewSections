@@ -150,6 +150,7 @@
 			<key>Values</key>
 			<array>
 				<string>UIViewController</string>
+				<string>UICollectionViewController_SingleType</string>
 				<string>UITableViewController</string>
 				<string>UICollectionViewController</string>
 				<string>UITableViewController_TextField</string>
@@ -169,14 +170,15 @@
 			<key>Type</key>
 			<string>text</string>
 			<key>RequiredOptions</key>
-        		<dict>
-            		<key>viewControllerSubclass</key>
-			<array>
-			<string>UITableViewController</string>
-			<string>UICollectionViewController</string>
-			<string>UITableViewController_TextField</string>
-			</array>
-        		</dict>
+			<dict>
+				<key>viewControllerSubclass</key>
+				<array>
+					<string>UITableViewController</string>
+					<string>UICollectionViewController_SingleType</string>
+					<string>UITableViewController_TextField</string>
+					<string>UICollectionViewController_SingleType</string>
+				</array>
+			</dict>
 		</dict>
 	</array>
 	<key>Platforms</key>

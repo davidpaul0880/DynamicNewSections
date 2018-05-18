@@ -10,7 +10,7 @@
 
 
 class ___VARIABLE_sceneName___Presenter {
-    var router: ___VARIABLE_sceneName___Router<___VARIABLE_sceneName___Segue>!
+    var router: ___VARIABLE_sceneName___Router!
     var viewModel: Default___VARIABLE_sceneName___ViewModel
     weak var displayUI: ___VARIABLE_sceneName____DisplayUI!
     init(_ viewModel: Default___VARIABLE_sceneName___ViewModel) {
