@@ -150,9 +150,10 @@
 			<key>Values</key>
 			<array>
 				<string>UIViewController</string>
+				<string>UICollectionViewController</string>
 				<string>UICollectionViewController_SingleType</string>
 				<string>UITableViewController</string>
-				<string>UICollectionViewController</string>
+				<string>UITableViewController_SingleType</string>
 				<string>UITableViewController_TextField</string>
 			</array>
 		</dict>
@@ -176,7 +177,7 @@
 					<string>UITableViewController</string>
 					<string>UICollectionViewController_SingleType</string>
 					<string>UITableViewController_TextField</string>
-					<string>UICollectionViewController_SingleType</string>
+					<string>UITableViewController_SingleType</string>
 				</array>
 			</dict>
 		</dict>
