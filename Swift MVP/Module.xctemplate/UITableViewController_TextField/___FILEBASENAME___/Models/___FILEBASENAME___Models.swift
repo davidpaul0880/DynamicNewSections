@@ -23,14 +23,9 @@ extension UITextField {
     }
 }
 enum ___VARIABLE_sceneName___ {
-    struct Request: JSONDictionaryDeserializable {
-        func toJSON() -> [String: Any] {
-            return [:]
-        }
+    struct Request: Encodable {
     }
-    struct Response: JSONDictionarySerializable {
-        init(json: [String: Any]) throws {
-        }
+    struct Response: Decodable {
     }
     struct InputField {
         let inputType: InputType

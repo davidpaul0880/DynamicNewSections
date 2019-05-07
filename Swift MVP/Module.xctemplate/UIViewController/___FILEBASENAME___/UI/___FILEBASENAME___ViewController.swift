@@ -10,12 +10,16 @@
 
 import UIKit
 
-
 class ___VARIABLE_sceneName___ViewController: BaseViewController {
     
     var eventHandler: ___VARIABLE_sceneName____HandleUIEvents!
-    weak var viewModel: ___VARIABLE_sceneName___ViewModel!
+    weak var viewModel: ___VARIABLE_sceneName___ViewModel?
     @IBOutlet weak var sbControl: ___VARIABLE_sceneName___SBControl!
+    
+    //Pubic Vars
+    
+    //Private Vars
+    
     // MARK: View lifecycle
     
     override func viewDidLoad() {
@@ -29,6 +33,17 @@ class ___VARIABLE_sceneName___ViewController: BaseViewController {
     }
 }
 
+// MARK: IBActions
+extension ___VARIABLE_sceneName___ViewController {
+    
+}
+
+// MARK: Private funtions
+private extension ___VARIABLE_sceneName___ViewController {
+    
+}
+
+// MARK: ___VARIABLE_sceneName____DisplayUI
 extension ___VARIABLE_sceneName___ViewController: ___VARIABLE_sceneName____DisplayUI {
     func toggle(_ isLoading: Bool) {
     }

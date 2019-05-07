@@ -15,9 +15,11 @@ protocol ___VARIABLE_sceneName___ViewModel: class {
 }
 
 class Default___VARIABLE_sceneName___ViewModel: ___VARIABLE_sceneName___ViewModel {
+    
     init() {
         
     }
+    
     func doSomeWork() {
     }
 }

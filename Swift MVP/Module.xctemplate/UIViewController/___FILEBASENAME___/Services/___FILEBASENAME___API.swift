@@ -17,16 +17,4 @@ class ___VARIABLE_sceneName___API: ___VARIABLE_sceneName___Service {
     init(_ connection: NetworkingAPI) {
         self.connection = connection
     }
-//    func login(request: LoginRequest, completion: (PatientProfile?, MOError?)) {
-//        let data = RequestData(endpoint: .login, parameters: nil, body: request.toJSON())
-//        connection.makeWebserviceCall(method: .post, with: data) { [weak self] (response: Result<LoginResponse>) in
-//            switch response {
-//            case .success(let response):
-//                UserManager.sharedInstance.patientProfile = response.patient
-//                completion(profile, err)
-//            case .failure(let err):
-//                completion(nil, err)
-//            }
-//        }
-//    }
 }
