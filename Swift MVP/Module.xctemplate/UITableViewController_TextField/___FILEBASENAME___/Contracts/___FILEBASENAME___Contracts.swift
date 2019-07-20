@@ -10,15 +10,17 @@
 
 import UIKit
 
+// add function which doesn't have return types
 protocol ___VARIABLE_sceneName____HandleUIEvents: ___VARIABLE_sceneName____HandleCellUIEvents {
     func doSomething()
 }
 
+// add function which doesn't have return types
 protocol ___VARIABLE_sceneName____DisplayUI: class {
     func toggle(_ isLoading: Bool)
 }
 
+// add function which doesn't have return types
 protocol ___VARIABLE_sceneName____HandleCellUIEvents: class {
-    func getValueFor(_ inputType: ___VARIABLE_sceneName___.InputType) -> String?
     func setValue(_ value: String?, inputType: ___VARIABLE_sceneName___.InputType)
 }

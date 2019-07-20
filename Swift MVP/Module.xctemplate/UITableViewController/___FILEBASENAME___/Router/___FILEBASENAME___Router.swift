@@ -25,6 +25,7 @@ final class ___VARIABLE_sceneName___Router: BaseNavigation, Navigator {
         viewController.eventHandler = presenter
         viewController.viewModel = viewModel
     }
+    
     func perform(_ segue: ___VARIABLE_sceneName___Segue, sender: Any?) {
         guard let actionSegue = ___VARIABLE_sceneName___Segue(rawValue: segue.rawValue) else { return }
         switch actionSegue {
@@ -32,6 +33,7 @@ final class ___VARIABLE_sceneName___Router: BaseNavigation, Navigator {
             viewController.performSegue(withIdentifier: segue.rawValue, sender: sender)
         }
     }
+    
     func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let identifier = segue.identifier, let actionSegue = ___VARIABLE_sceneName___Segue(rawValue: identifier) else {
             fatalError("identifier not defined or not matched with defined LoginSegue")
@@ -46,6 +48,7 @@ final class ___VARIABLE_sceneName___Router: BaseNavigation, Navigator {
 //        }
         
     }
+    
     deinit {
         printDebug("\(String(describing: self)) is being deInitialized.")
     }

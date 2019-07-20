@@ -21,9 +21,11 @@ class ___VARIABLE_sceneName___ViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    
     override class func storyboard() -> UIStoryboard {
         return UIStoryboard.main
     }
+    
     deinit {
         printDebug("\(String(describing: self)) is being deInitialized.\n")
     }
@@ -41,6 +43,7 @@ private extension ___VARIABLE_sceneName___ViewController {
 
 // MARK: ___VARIABLE_sceneName____DisplayUI
 extension ___VARIABLE_sceneName___ViewController: ___VARIABLE_sceneName____DisplayUI {
+    
     func toggle(_ isLoading: Bool) {
     }
 }

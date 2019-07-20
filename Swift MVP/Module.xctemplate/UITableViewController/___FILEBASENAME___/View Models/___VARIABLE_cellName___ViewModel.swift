@@ -12,6 +12,7 @@ import UIKit
 protocol ___VARIABLE_cellName___CellPresentable {
     var roomName: String? { get }
 }
+
 class ___VARIABLE_cellName___ViewModel: ___VARIABLE_cellName___CellPresentable {
     var roomName: String?
 }

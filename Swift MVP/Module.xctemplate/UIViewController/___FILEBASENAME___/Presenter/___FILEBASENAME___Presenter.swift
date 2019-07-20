@@ -17,6 +17,13 @@ class ___VARIABLE_sceneName___Presenter {
         self.viewModel = viewModel
     }
 }
+
+//MARK: private functions
+private extension ___VARIABLE_sceneName___Presenter {
+    
+}
+
+//MARK: ___VARIABLE_sceneName____HandleUIEvents
 extension ___VARIABLE_sceneName___Presenter: ___VARIABLE_sceneName____HandleUIEvents {
     func doSomething() {
         

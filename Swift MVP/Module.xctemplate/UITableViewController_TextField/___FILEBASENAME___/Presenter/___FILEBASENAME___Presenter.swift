@@ -20,6 +20,8 @@ class ___VARIABLE_sceneName___Presenter {
         printDebug("\(String(describing: self)) is being deInitialized.\n")
     }
 }
+
+//MARK: ___VARIABLE_sceneName____HandleUIEvents
 extension ___VARIABLE_sceneName___Presenter: ___VARIABLE_sceneName____HandleUIEvents {
     func doSomething() {
         
@@ -28,6 +30,8 @@ extension ___VARIABLE_sceneName___Presenter: ___VARIABLE_sceneName____HandleUIEv
         delegate.loadInputFields([])
     }
 }
+
+// MARK: ___VARIABLE_sceneName____HandleCellUIEvents
 extension ___VARIABLE_sceneName___Presenter: ___VARIABLE_sceneName____HandleCellUIEvents {
     func getValueFor(_ inputType: ___VARIABLE_sceneName___.InputType) -> String? {
         return viewModel.getValueFor(inputType)

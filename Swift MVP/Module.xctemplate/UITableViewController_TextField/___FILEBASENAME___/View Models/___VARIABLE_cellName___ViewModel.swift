@@ -9,11 +9,18 @@
 //
 
 import UIKit
+
 protocol ___VARIABLE_cellName___CellPresentable {
     var roomName: String? { get }
 }
-class ___VARIABLE_cellName___ViewModel: ___VARIABLE_cellName___CellPresentable {
-    var roomName: String?
+
+class ___VARIABLE_cellName___ViewModel: {
+    
 }
 
-
+//MARK: ___VARIABLE_cellName___CellPresentable
+extension ___VARIABLE_cellName___ViewModel: ___VARIABLE_cellName___CellPresentable {
+    var roomName: String? {
+        return "cell1"
+    }
+}

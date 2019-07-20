@@ -12,8 +12,10 @@
 protocol ___VARIABLE_sceneName___Service {
     //func login(request: LoginRequest, completion: (PatientProfile?, MOError?))
 }
+
 class ___VARIABLE_sceneName___API: ___VARIABLE_sceneName___Service {
     var connection: NetworkingAPI
+    
     init(_ connection: NetworkingAPI) {
         self.connection = connection
     }

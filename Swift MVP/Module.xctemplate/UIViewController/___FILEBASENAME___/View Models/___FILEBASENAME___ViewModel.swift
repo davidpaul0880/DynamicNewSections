@@ -10,16 +10,25 @@
 
 import UIKit
 
+//declare getters and functions with return variables which can access from view controller
 protocol ___VARIABLE_sceneName___ViewModel: class {
-    func doSomeWork()
+    var titleText: String {get}
+    //var reloadUserProfile: ((UpdatedProfileStatus) -> Void)? {get set}
 }
 
-class Default___VARIABLE_sceneName___ViewModel: ___VARIABLE_sceneName___ViewModel {
+class Default___VARIABLE_sceneName___ViewModel {
     
+    var reloadUserProfile: ((UpdatedProfileStatus) -> Void)?
     init() {
         
     }
+
+}
+
+//MARK: ___VARIABLE_sceneName___ViewModel
+extension Default___VARIABLE_sceneName___ViewModel: ___VARIABLE_sceneName___ViewModel {
     
-    func doSomeWork() {
+    var titleText: String {
+        return "My ViewController"
     }
 }
