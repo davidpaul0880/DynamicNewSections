@@ -10,10 +10,12 @@
 
 import UIKit
 
+// add functions which can invoke from view controllers. No return types
 protocol ___VARIABLE_sceneName____HandleUIEvents: class {
     func doSomething()
 }
 
+// add functions which can invoke form Presenter. No return types
 protocol ___VARIABLE_sceneName____DisplayUI: class {
     func toggle(_ isLoading: Bool)
 }

@@ -15,6 +15,7 @@ class ___VARIABLE_cellName___CollectionViewCell: UICollectionViewCell, CellConfi
         super.awakeFromNib()
         //roomLabel.font = UIFont.regular(10)
     }
+    
     var cellController: ___VARIABLE_cellName___CellPresentable? {
         didSet {
             guard let cellViewModel = cellController else { return }

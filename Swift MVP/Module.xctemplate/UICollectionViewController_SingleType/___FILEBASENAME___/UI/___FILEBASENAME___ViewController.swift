@@ -14,22 +14,36 @@ import UIKit
 class ___VARIABLE_sceneName___ViewController: BaseViewController {
     
     var eventHandler: ___VARIABLE_sceneName____HandleUIEvents!
-    weak var viewModel: ___VARIABLE_sceneName___ViewModel!
+    weak var viewModel: ___VARIABLE_sceneName___ViewModel?
     @IBOutlet weak var sbControl: ___VARIABLE_sceneName___SBControl!
     // MARK: View lifecycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    
     override class func storyboard() -> UIStoryboard {
         return UIStoryboard.main
     }
+    
     deinit {
         printDebug("\(String(describing: self)) is being deInitialized.\n")
     }
 }
 
+// MARK: IBActions
+extension ___VARIABLE_sceneName___ViewController {
+    
+}
+
+// MARK: Private funtions
+private extension ___VARIABLE_sceneName___ViewController {
+    
+}
+
+// MARK: ___VARIABLE_sceneName____DisplayUI
 extension ___VARIABLE_sceneName___ViewController: ___VARIABLE_sceneName____DisplayUI {
+    
     func toggle(_ isLoading: Bool) {
     }
 }

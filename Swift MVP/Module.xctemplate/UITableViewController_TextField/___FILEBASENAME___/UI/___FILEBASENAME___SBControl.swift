@@ -10,7 +10,6 @@
 
 import UIKit
 
-
 class ___VARIABLE_sceneName___SBControl: NSObject {
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var phoneLabel: UILabel!

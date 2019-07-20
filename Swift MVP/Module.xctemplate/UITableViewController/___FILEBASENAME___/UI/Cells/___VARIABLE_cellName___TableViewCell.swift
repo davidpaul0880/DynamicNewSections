@@ -16,6 +16,7 @@ class ___VARIABLE_cellName___TableViewCell: UITableViewCell {
         //Set font and color here
         //roomLabel.font = UIFont.regular(10)
     }
+    
     var cellController: ___VARIABLE_cellName___CellPresentable? {
         didSet {
             guard let cellViewModel = cellController else { return }

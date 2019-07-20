@@ -23,7 +23,7 @@ final class ___VARIABLE_sceneName___Router: BaseNavigation, Navigator {
         presenter.displayUI = viewController
         viewController.router = router//assigned to instance in BaseViewController
         viewController.eventHandler = presenter
-        viewController.viewModel = viewModel
+        viewController.viewModelPresentable = viewModel
     }
     func perform(_ segue: ___VARIABLE_sceneName___Segue, sender: Any?) {
         guard let actionSegue = ___VARIABLE_sceneName___Segue(rawValue: segue.rawValue) else { return }

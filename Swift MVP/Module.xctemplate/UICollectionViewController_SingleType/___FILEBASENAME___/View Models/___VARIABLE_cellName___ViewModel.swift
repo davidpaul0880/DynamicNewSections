@@ -15,6 +15,7 @@ protocol ___VARIABLE_cellName___CellPresentable: class {
 }
 
 class ___VARIABLE_cellName___ViewModel: ___VARIABLE_cellName___CellPresentable {
+    
     init() {
         
     }

@@ -13,6 +13,7 @@ class ___VARIABLE_sceneName___UIController {
     
     //weak var eventHandler: ___VARIABLE_sceneName____HandleCellUIEvents!
     fileprivate let collectionViewDataSource: CollectionViewDataSource<___VARIABLE_cellName___CellPresentable, ___VARIABLE_cellName___CollectionViewCell>
+    
     init(_ collectionView: UICollectionView, eventHandler: ___VARIABLE_sceneName____HandleCellUIEvents) {
         //self.eventHandler = eventHandler
         self.collectionViewDataSource = CollectionViewDataSource<___VARIABLE_cellName___CellPresentable, ___VARIABLE_cellName___CollectionViewCell>(collectionView: collectionView)
@@ -23,10 +24,12 @@ class ___VARIABLE_sceneName___UIController {
             //strongSelf.eventHandler.handleRoomSelection(model: model, cellIndex: indexPath.item)
         }
     }
+    
     func loadBitReelRooms(_ rooms: [___VARIABLE_cellName___ViewModel]) {
         collectionViewDataSource.cellSizeDelegate = self
         collectionViewDataSource.dataSource = rooms
     }
+    
     deinit {
         printDebug("\(String(describing: self)) is being deInitialized.")
     }
